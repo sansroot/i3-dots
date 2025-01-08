@@ -1,3 +1,5 @@
+Requirements:
+	
  Alacritty-Themes: https://github.com/alacritty/alacritty-theme
 	
  Neofetch-Themes: https://github.com/Chick2D/neofetch-themes
@@ -27,8 +29,9 @@
  Autotiling: pacman -S autotiling (install it from distro's repository)
 
  ------------If you have any doubts, you can ask me in the "issues" section------------
+	
+![image](https://github.com/user-attachments/assets/34271f86-b637-45dd-929c-2445adc9b418)
+![image](https://github.com/user-attachments/assets/acdd5c65-0b37-47dc-96fc-494e7f0ea73b)
 
-![image](https://github.com/user-attachments/assets/2a34d0f5-70e3-4c28-aa67-57a01914c728)
-![image](https://github.com/user-attachments/assets/c53b544e-b5d9-4aeb-9ff7-ad3f9f0db611)
 
 

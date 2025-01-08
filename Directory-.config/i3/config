@@ -208,20 +208,25 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf 
 exec_always --no-startup-id polybar -r
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png
+exec_always --no-startup-id feh --bg-scale ~/Pictures/mocha1.png
 
 exec_always --no-startup-id autotiling
 gaps inner 50
 #gaps outer 20
 
 
-for_window [class="^.*"] border pixel 0 
+for_window [class="^.*"] border pixel 2 
+new_window 1pixel
 
 exec_always "setxkbmap -model pc104 -layout us,br -variant ,, -option grp:win_space_toggle"
 
 exec_always "xset -dpms"
 
 client.focused #afafff #afafff #afafff #afafff
+#client.focused #87afff #87afff #87afff #87afff	
+#client.focused_inactive #3c3b37 #3c3b37 #8936ff #3c3b37
+#client.unfocused #3c3b37 #3c3b37 #dcdccc #3c3b37
+client.urgent #8936ff #8936ff #dcdccc #3c3b37
 
 #bar { 
 #font pango:TerminessTTF NF 13.5
