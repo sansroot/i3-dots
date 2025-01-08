@@ -13,9 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-#font pango:monospace 8
-font pango:TerminessTTF NF 13.5
-
+font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -52,7 +50,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym mod1+Return exec alacritty
-bindsym $mod+l exec i3lock -i /home/ks/Pictures/novacapa.png
+bindsym $mod+l exec i3lock -i ~/Pictures/i3lock.png
 # kill focused window
 bindsym mod1+q kill
 
@@ -64,8 +62,6 @@ bindsym mod1+q kill
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 bindsym mod1+x exec --no-startup-id rofi -show drun
-bindsym mod1+z exec --no-startup-id rofi -show power-menu -modi power-menu:rofi-power-menu
-
 # change focus
  ##bindsym $mod+j focus left
  ##bindsym $mod+k focus down
@@ -103,7 +99,7 @@ bindsym mod1+w split h
 bindsym mod1+s split v
 
 # enter fullscreen mode for the focused container
-bindsym mod1+f fullscreen toggle
+bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
  ##bindsym $mod+s layout stacking
@@ -199,43 +195,35 @@ bindsym $mod+r mode "resize"
 
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf 
-exec_always --no-startup-id polybar -r
+#exec_always --no-startup-id polybar -r
 exec_always --no-startup-id nitrogen --restore
-gaps inner 40
-gaps outer 20
+gaps inner 30
 
 
-for_window [class="^.*"] border pixel 3
+for_window [class="^.*"] border pixel 1
 new_window 1pixel
 
-exec_always "setxkbmap -model pc104 -layout us,br -variant ,, -option grp:win_space_toggle"
+exec_always "setxkbmap -model pc104 -layout us,pt -variant ,, -option grp:win_space_toggle"
 
 
-client.focused #ffafff	#ffafff	#ffafff	#ffafff	
-#client.focused #87afff #87afff #87afff #87afff	
+client.focused #ffafd7 #ffafd7 #ffafd7 #ffafd7
 client.focused_inactive #3c3b37 #3c3b37 #7f9f7f #3c3b37
-#client.unfocused #3c3b37 #3c3b37 #dcdccc #3c3b37
+client.unfocused #3c3b37 #3c3b37 #dcdccc #3c3b37
 client.urgent #dca3a3 #dca3a3 #dcdccc #3c3b37
 
-#bar { 
-#font pango:TerminessTTF NF 13.5
-#	status_command /usr/bin/bumblebee-status -m cpu memory battery time \
-#		pasink pasource -p time.format="%H:%M" -t iceberg-rainbow
-#	position top
-#colors{
-#	background #1e1d2fcc
-#	separator #666666
-#	statusline #ffffff
-#	focused_workspace #afd7ff #afd7ff #ffffff
-#	inactive_workspace #ffafd7 #ffafd7 #ffffff
+bar { 
+	font pango:TerminessTTF NF 13.5
+	status_command /usr/bin/bumblebee-status -m cpu memory battery time \
+		pasink pasource -p time.format="%H:%M" -t iceberg-rainbow
+	position top
+colors{
+	background #1e1d2fcc
+	separator #666666
+	statusline #ffffff
+ 	focused_workspace #afd7ff #afd7ff #ffffff
+	inactive_workspace #ffafd7 #ffafd7 #ffffff
 
-#} 
+} 
 
-#}
-
-
-
-exec_always for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
-
-exec_always for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id "Coordinate Transformation Matrix" 1.5 0 0 0 1.5 0 0 0 1; done
+}
 

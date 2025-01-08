@@ -1,5 +1,3 @@
-Check "instructions.txt" for each folder!
-
-![mandar git](https://user-images.githubusercontent.com/29405747/232282545-cde51d8c-aa49-42d9-836b-0bf2f1b02954.png)
-![mandar git 2](https://user-images.githubusercontent.com/29405747/232282551-5432f31a-dc5e-4057-8486-f04ff0957260.png)
-![mandar git 3](https://user-images.githubusercontent.com/29405747/232282555-33d3f0a2-afa9-4cf5-b626-d66213cb732a.png)
+To install, read the instructions inside every directory
+![Screenshot_2023-04-12_22-26-22](https://user-images.githubusercontent.com/29405747/231623639-c3fc1e4e-56f9-4182-b223-f85472a61b7e.png)
+![Screenshot_2023-04-12_22-27-09](https://user-images.githubusercontent.com/29405747/231623646-9528dcbe-6671-4867-964f-d167f2d3eff5.png)

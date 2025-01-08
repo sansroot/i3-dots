@@ -1,3 +1,1 @@
-install dmenu-power-menu-git from aur
-Install TerminessTTF NF fonts
 install i3lock and place i3lock.png at ~/Pictures/
