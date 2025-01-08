@@ -1,19 +1,19 @@
 configuration{
-    modi: "run,drun,window";
+    modi: "drun";
     icon-theme: "Oranchelo";
     show-icons: true;
-    terminal: "alacritty";
+    terminal: "kitty";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
-    display-drun: " ";
+    display-drun: "   ";
     display-run: "";
     display-window: "󰕰";
     display-Network: "󰤨";
-    sidebar-mode: true;
+    sidebar-mode: false;
 }
 
 //@theme "catppuccin-mocha"
 
-@theme "/home/ks/.local/share/rofi/themes/catppuccin-mocha.rasi"
+@theme "~/.config/rofi/dotfiles-v7.rasi"
