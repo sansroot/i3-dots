@@ -19,6 +19,8 @@
  Rofi: pacman -S rofi (install it from distro's repository)
 
  Autotiling: pacman -S autotiling (install it from distro's repository)
+ 
+ nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd
 
  ------------If you have any doubts, you can ask me in the "issues" section------------
 
