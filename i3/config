@@ -208,7 +208,7 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf 
 exec_always --no-startup-id polybar -r
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png
+exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpaper.png
 
 exec_always --no-startup-id autotiling
 gaps inner 50
