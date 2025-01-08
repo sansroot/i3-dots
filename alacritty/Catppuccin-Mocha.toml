@@ -1,7 +1,7 @@
 [colors]
 [[colors.indexed_colors]]
 index = 16
-color = "#cba6f7"
+color = "#afafff"
 
 [[colors.indexed_colors]]
 index = 17
@@ -30,34 +30,34 @@ text = "#1E1E2E"
 background = "#F5E0DC"
 
 [colors.normal]
-black = "#cba6f7"
-red = "#cba6f7"
-green = "#cba6f7"
-yellow = "#cba6f7"
-blue = "#cba6f7"
-magenta = "#cba6f7"
-cyan = "#cba6f7"
-white = "#cba6f7"
+black = "#afafff"
+red = "#afafff"
+green = "#afafff"
+yellow = "#afafff"
+blue = "#afafff"
+magenta = "#afafff"
+cyan = "#afafff"
+white = "#afafff"
 
 [colors.bright]
-black = "#cba6f7"
-red = "#cba6f7"
-green = "#cba6f7"
-yellow = "#cba6f7"
-blue = "#cba6f7"
-magenta = "#cba6f7"
-cyan = "#cba6f7"
-white = "#cba6f7"
+black = "#afafff"
+red = "#afafff"
+green = "#afafff"
+yellow = "#afafff"
+blue = "#afafff"
+magenta = "#afafff"
+cyan = "#afafff"
+white = "#afafff"
 
 [colors.dim]
-black = "#cba6f7"
-red = "#cba6f7"
-green = "#cba6f7"
-yellow = "#cba6f7"
-blue = "#cba6f7"
-magenta = "#cba6f7"
-cyan = "#cba6f7"
-white = "#cba6f7"
+black = "#afafff"
+red = "#afafff"
+green = "#afafff"
+yellow = "#afafff"
+blue = "#afafff"
+magenta = "#afafff"
+cyan = "#afafff"
+white = "#afafff"
 
 [colors.search.matches]
 foreground = "#1E1E2E"

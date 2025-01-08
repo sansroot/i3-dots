@@ -211,20 +211,17 @@ exec_always --no-startup-id polybar -r
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png
 
 exec_always --no-startup-id autotiling
-gaps inner 15
-gaps outer 35
+gaps inner 50
+#gaps outer 20
 
 
-for_window [class="^.*"] border pixel 3 
+for_window [class="^.*"] border pixel 0 
 
 exec_always "setxkbmap -model pc104 -layout us,br -variant ,, -option grp:win_space_toggle"
 
 exec_always "xset -dpms"
 
-client.focused #cba6f7 #cba6f7 #cba6f7 #cba6f7
-client.focused_inactive  #1e1e2e  #1e1e2e #1e1e2e #1e1e2e
-#client.unfocused    #0F0F0F #5697B2 #E5E5E5
-#client.urgent        #0F0F0F #BC9B54 #E5E5E5
+client.focused #afafff #afafff #afafff #afafff
 
 #bar { 
 #font pango:TerminessTTF NF 13.5
@@ -244,7 +241,7 @@ client.focused_inactive  #1e1e2e  #1e1e2e #1e1e2e #1e1e2e
 
 
 
-exec_always for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 0; done
+exec_always for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
 
 exec_always for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id "Coordinate Transformation Matrix" 1.5 0 0 0 1.5 0 0 0 1; done
 
