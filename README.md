@@ -1,6 +1,4 @@
-Kitty: pacman -S kitty (install it from distro's repository)
-	
- Neofetch-Themes: https://github.com/Chick2D/neofetch-themes
+ Kitty: pacman -S kitty (install it from distro's repository)
 	
  Nvim: pacman -S neovim (install it from distro's repository)
 	
@@ -19,10 +17,6 @@ Kitty: pacman -S kitty (install it from distro's repository)
  Polybar: pacman -S polybar (install it from distro's repository)
 	
  Rofi: pacman -S rofi (install it from distro's repository)
-	
- Rofi-Themes: https://github.com/newmanls/rofi-themes-collection (CLI - rofi-theme-selector)
-	
- Catppuccin for Rofi: https://github.com/catppuccin/rofi?tab=readme-ov-file (CLI - rofi-theme-selector)
 
  Autotiling: pacman -S autotiling (install it from distro's repository)
 
