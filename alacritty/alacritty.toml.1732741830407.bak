@@ -1,5 +1,0 @@
-general.import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/Afterglow.toml"
-]
-[font]
-	size = 10.0
