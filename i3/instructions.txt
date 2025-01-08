@@ -1,0 +1,1 @@
+install i3 and place the folder at ~/.config

@@ -1,0 +1,3 @@
+delete the original file and move the iceberg theme inside this folder of the instructions to path below, if you don't have it already you will need to download bumblebee status.
+/usr/share/bumblebee-status/themes/
+

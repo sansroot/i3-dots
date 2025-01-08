@@ -1,0 +1,3 @@
+place the TESTE file in your documents and add this to your .bashrc: cat ~/Documents/teste
+This will give you a space in neofetch when starting a new terminal, just to be more centralized
+you need to install Terminess nerd font to use this confguration file

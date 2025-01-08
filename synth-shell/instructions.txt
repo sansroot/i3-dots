@@ -1,0 +1,1 @@
+install synth-shell and place the file at ~/.config/

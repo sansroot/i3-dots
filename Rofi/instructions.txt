@@ -1,0 +1,1 @@
+install rofi and place the theme inside the /usr/share/rofi/themes/
