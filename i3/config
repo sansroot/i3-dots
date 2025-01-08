@@ -51,7 +51,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym mod1+Return exec alacritty
+bindsym mod1+Return exec kitty
 bindsym $mod+l exec i3lock --color 36343F
 # kill focused window
 bindsym mod1+q kill
