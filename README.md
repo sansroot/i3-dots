@@ -1,4 +1,4 @@
-Alacritty-Themes: https://github.com/alacritty/alacritty-theme
+Kitty: pacman -S kitty (install it from distro's repository)
 
 Neofetch-Themes: https://github.com/Chick2D/neofetch-themes
 
