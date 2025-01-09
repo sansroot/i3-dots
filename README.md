@@ -32,6 +32,16 @@ You will need the fonts, so you will have to install from it's repository first,
 1. https://github.com/adi1090x/rofi
 2. rofi: pacman -S rofi (install it from distro's repository)
 
+# Optional
+
+Nvim: pacman -S neovim (install it from distro's repository)
+
+NVChad: https://github.com/NvChad/NvChad
+
+Catppuccin mauve cursor: https://www.gnome-look.org/p/2135236
+
+Catppuccin Mauve GTK theme: https://www.gnome-look.org/p/1996672
+
 
 # Just to help you
 
