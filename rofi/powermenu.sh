@@ -96,16 +96,15 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+		run_cmd
+		hyprlock
+		i3lock
         ;;
     $suspend)
 		run_cmd --suspend
         ;;
     $logout)
 		run_cmd --logout
+		hyprctl dispatch exit
         ;;
 esac
