@@ -39,9 +39,12 @@ apple keyboard path to configure keys: /sys/bus/hid/drivers/apple/module/paramet
 
 ------------If you have any doubts, you can ask me in the "issues" section------------
 
-![image](https://github.com/user-attachments/assets/38d9edeb-c93e-49a2-beef-3d2f58cd3b6f)
-![image](https://github.com/user-attachments/assets/81ff6b64-db09-4065-9c9c-fedf0e550ef3)
-![image](https://github.com/user-attachments/assets/52719c3e-a5f4-4ba4-a96d-8a6a7ca45b75)
+![image](https://github.com/user-attachments/assets/6b0e5c0c-8656-4793-861c-e20302f7c0c5)
+![image](https://github.com/user-attachments/assets/91ac79df-8c24-4330-b6f5-91f873575aa0)
+![image](https://github.com/user-attachments/assets/a10d1932-a528-408a-ab5d-436165b213f6)
+
+
+
 
 
 
