@@ -64,7 +64,7 @@ bindsym mod1+q kill
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 bindsym mod1+x exec --no-startup-id rofi -show drun
-bindsym mod1+z exec --no-startup-id rofi -show power-menu -modi power-menu:rofi-power-menu
+bindsym mod1+z exec --no-startup-id ~/.config/rofi/powermenu.sh
 
 #bindsym mod1+t exec --no-startup-id i3-msg restart | cp -r ~/Documents/themes/joi/i3/ -t ~/.config/ | cp -r ~/Documents/themes/joi/polybar/ -t ~/.config/ | cp -r ~/Documents/themes/joi/rofi/ -t ~/.config/ | cp ~/Documents/themes/joi/rofi/squared-nord.rasi -t /usr/share/rofi/themes/ | cp -r ~/Documents/themes/joi/synth-shell/ -t ~/.config/
 
