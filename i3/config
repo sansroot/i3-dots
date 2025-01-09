@@ -211,17 +211,19 @@ exec_always --no-startup-id polybar -r
 exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpaper.png
 
 exec_always --no-startup-id autotiling
-gaps inner 50
-#gaps outer 20
+gaps inner 15
+#gaps outer 35
 
 
-for_window [class="^.*"] border pixel 0 
+for_window [class="^.*"] border pixel 3 
 
 exec_always "setxkbmap -model pc104 -layout us,br -variant ,, -option grp:win_space_toggle"
 
 exec_always "xset -dpms"
 
-client.focused #afafff #afafff #afafff #afafff
+
+client.focused #b4befe #b4befe #b4befe #b4befe
+client.focused_inactive  #1e1e2e  #1e1e2e #1e1e2e #1e1e2e
 
 #bar { 
 #font pango:TerminessTTF NF 13.5
