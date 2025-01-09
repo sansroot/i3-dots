@@ -1,3 +1,5 @@
+#neofetch --kitty ~/Pictures/neofetch1.jpg --size 175
+fastfetch --logo ~/.config/fastfetch/logo.jpg --logo-type kitty-direct --logo-width 27 --logo-height 13
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -113,8 +115,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vim=nvim
-neofetch
-alias ls='ls -al'
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+alias vim=nvim
+#cat ~/Documents/space
+alias ls='ls -sal'
+alias fastfetch='fastfetch --logo ~/.config/fastfetch/logo.jpg --logo-type kitty-direct --logo-width 28 --logo-height 14'
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
