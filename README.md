@@ -18,7 +18,16 @@ fastfetch: pacman -S fastfetch (install it from distro's repository)
 	
  Polybar: pacman -S polybar (install it from distro's repository)
 	
- Rofi: pacman -S rofi (install it from distro's repository)
+ 
+###############################################################################################
+
+Rofi:
+
+install first: https://github.com/adi1090x/rofi
+
+then: rofi: pacman -S rofi (install it from distro's repository)
+
+###############################################################################################
 
  Autotiling: pacman -S autotiling (install it from distro's repository)
  
