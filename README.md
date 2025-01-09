@@ -30,7 +30,7 @@ nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome 
 You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi from repository.
 
 1. https://github.com/adi1090x/rofi
-2.rofi: pacman -S rofi (install it from distro's repository)
+2. rofi: pacman -S rofi (install it from distro's repository)
 
 
 # Just to help you
