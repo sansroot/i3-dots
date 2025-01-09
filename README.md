@@ -34,9 +34,10 @@ then: rofi: pacman -S rofi (install it from distro's repository)
  nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 
  ------------If you have any doubts, you can ask me in the "issues" section------------
-![image](https://github.com/user-attachments/assets/0bdf95e4-00da-413b-b68b-f8cb6e8c28b8)
-![image](https://github.com/user-attachments/assets/808afff6-d351-4a3f-aeca-e1d79bb85f5d)
-![image](https://github.com/user-attachments/assets/c4abf782-408a-4dcb-a492-8d462ab97c59)
+![image](https://github.com/user-attachments/assets/8954c43d-7ce1-4aba-a1d9-108ac75adcf4)
+![image](https://github.com/user-attachments/assets/3fd974a4-9fbd-49a8-bac5-d3a05f40c6b7)
+![image](https://github.com/user-attachments/assets/50e38ad1-57e7-49a5-97f1-b8033dcc5ce2)
+
 
 
 
