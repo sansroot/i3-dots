@@ -212,7 +212,7 @@ exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpaper.png
 
 exec_always --no-startup-id autotiling
 gaps inner 15
-#gaps outer 35
+gaps outer 35
 
 
 for_window [class="^.*"] border pixel 3 
