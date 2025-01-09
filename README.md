@@ -1,3 +1,5 @@
+fastfetch: pacman -S fastfetch (install it from distro's repository)
+
 Kitty: pacman -S kitty (install it from distro's repository)
 
 Nvim: pacman -S neovim (install it from distro's repository)
