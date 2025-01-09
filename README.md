@@ -25,7 +25,7 @@ Autotiling: pacman -S autotiling (install it from distro's repository)
 nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 
 
-# Rofi (special case):
+# Rofi (special case)
 
 You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi from repository.
 
