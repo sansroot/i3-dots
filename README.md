@@ -23,8 +23,10 @@
  nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 
  ------------If you have any doubts, you can ask me in the "issues" section------------
+![image](https://github.com/user-attachments/assets/0bdf95e4-00da-413b-b68b-f8cb6e8c28b8)
+![image](https://github.com/user-attachments/assets/808afff6-d351-4a3f-aeca-e1d79bb85f5d)
+![image](https://github.com/user-attachments/assets/c4abf782-408a-4dcb-a492-8d462ab97c59)
 
-![image](https://github.com/user-attachments/assets/2a34d0f5-70e3-4c28-aa67-57a01914c728)
-![image](https://github.com/user-attachments/assets/c53b544e-b5d9-4aeb-9ff7-ad3f9f0db611)
+
 
 
