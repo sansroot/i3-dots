@@ -1,6 +1,6 @@
 ## Requisites
 
-#### fastfetch: 
+#### Fastfetch: 
 ```
 sudo pacman -S fastfetch (install it from distro's repository)
 ```
