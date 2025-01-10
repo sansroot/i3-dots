@@ -12,22 +12,10 @@ pacman -S kitty (install it from distro's repository)
 ```
 pacman -S neovim (install it from distro's repository)
 ```
-#### NVChad: 
-
-<a>https://github.com/NvChad/NvChad</a>
-
 #### Zsh: 
 ```
 pacman -S zsh (install it from distro's repository)
 ```
-#### Oh-my-ZSH: 
-
-<a>https://github.com/ohmyzsh/ohmyzsh</a>
-
-#### PowerLevel10K: 
-
-<a>https://github.com/romkatv/powerlevel10k</a>
-
 #### Picom: 
 ```
 pacman -S picom (install it from distro's repository)
@@ -48,13 +36,24 @@ pacman -S autotiling (install it from distro's repository)
 ```
 pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 ```
+#### Oh-my-ZSH: 
+
+<a>https://github.com/ohmyzsh/ohmyzsh</a>
+
+#### PowerLevel10K: 
+
+<a>https://github.com/romkatv/powerlevel10k</a>
+
+#### NVChad: 
+
+<a>https://github.com/NvChad/NvChad</a>
 
 ## Rofi (special case):
 
   You will need to install rofi from official git repository because it's fonts, then you can install it from pacman repository.
   
   ```
-  sudo pacman -S rofi-wayland (install it from distro's repository)
+  sudo pacman -S rofi (install it from distro's repository)
   ```
   <a>https://github.com/adi1090x/rofi</a>
   
@@ -73,7 +72,7 @@ pacman -S neovim (install it from distro's repository)
 
 <a>https://www.gnome-look.org/p/2135236</a>
 
-#### Catppuccin Mauve GTK theme: 
+#### Catppuccin mauve GTK theme: 
 
 <a>https://www.gnome-look.org/p/1996672</a>
 
