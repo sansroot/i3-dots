@@ -2,39 +2,39 @@
 
 #### fastfetch: 
 ```
-pacman -S fastfetch (install it from distro's repository)
+sudo pacman -S fastfetch (install it from distro's repository)
 ```
 #### Kitty: 
 ```
-pacman -S kitty (install it from distro's repository)
+sudo pacman -S kitty (install it from distro's repository)
 ```
 #### Nvim: 
 ```
-pacman -S neovim (install it from distro's repository)
+sudo pacman -S neovim (install it from distro's repository)
 ```
 #### Zsh: 
 ```
-pacman -S zsh (install it from distro's repository)
+sudo pacman -S zsh (install it from distro's repository)
 ```
 #### Picom: 
 ```
-pacman -S picom (install it from distro's repository)
+sudo pacman -S picom (install it from distro's repository)
 ```
 #### I3WM: 
 ```
-pacman -S i3 (install it from distro's repository)
+sudo pacman -S i3 (install it from distro's repository)
 ```
 #### Polybar: 
 ```
-pacman -S polybar (install it from distro's repository)
+sudo pacman -S polybar (install it from distro's repository)
 ```
 #### Autotiling: 
 ```
-pacman -S autotiling (install it from distro's repository)
+sudo pacman -S autotiling (install it from distro's repository)
 ```
 #### nerd-fonts and awesome-fonts: 
 ```
-pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
+sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 ```
 #### Oh-my-ZSH: 
 
@@ -50,10 +50,10 @@ pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains
 
 ## Rofi (special case):
 
-  You will need to install rofi from official git repository because it's fonts, then you can install it from pacman repository.
+  You will need to install rofi from official git repository because it's fonts, then you can install it from sudo pacman repository.
   
   ```
-  sudo pacman -S rofi (install it from distro's repository)
+  sudo sudo pacman -S rofi (install it from distro's repository)
   ```
   <a>https://github.com/adi1090x/rofi</a>
   
@@ -62,7 +62,7 @@ pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains
 
 #### Nvim: 
 ```
-pacman -S neovim (install it from distro's repository)
+sudo pacman -S neovim (install it from distro's repository)
 ```
 #### NVChad: 
 
@@ -81,7 +81,7 @@ pacman -S neovim (install it from distro's repository)
 
 #### Nwg-look: 
 ```
-pacman -S nwg-look (install it from distro's repository)
+sudo pacman -S nwg-look (install it from distro's repository)
 ```
 #### Apple Magic Keyboard native path to configure key layout: 
 ```
