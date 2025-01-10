@@ -1,6 +1,6 @@
 ## Requisites
 
-#### fastfetch: 
+#### Fastfetch: 
 ```
 sudo pacman -S fastfetch (install it from distro's repository)
 ```
@@ -32,7 +32,7 @@ sudo pacman -S polybar (install it from distro's repository)
 ```
 sudo pacman -S autotiling (install it from distro's repository)
 ```
-#### nerd-fonts and awesome-fonts: 
+#### Nerd-fonts and Awesome-fonts: 
 ```
 sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 ```
