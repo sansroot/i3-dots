@@ -49,15 +49,17 @@ pacman -S autotiling (install it from distro's repository)
 pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 ```
 
-## Rofi (special case)
+## Rofi (special case):
 
-You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi from repository.
+  You will need to install rofi from official git repository because it's fonts, then you can install it from pacman repository.
+  
+  ```
+  sudo pacman -S rofi-wayland (install it from distro's repository)
+  ```
+  <a>https://github.com/adi1090x/rofi</a>
+  
 
-<a>https://github.com/adi1090x/rofi</a>
-```
-pacman -S rofi (install it from distro's repository)
-```
-## Optional
+## Optional:
 
 #### Nvim: 
 ```
@@ -76,7 +78,7 @@ pacman -S neovim (install it from distro's repository)
 <a>https://www.gnome-look.org/p/1996672</a>
 
 
-# Just to help you
+## Just to help you:
 
 #### Nwg-look: 
 ```
