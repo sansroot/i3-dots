@@ -1,53 +1,92 @@
-# Requisites
+## Requisites
 
-fastfetch: pacman -S fastfetch (install it from distro's repository)
+#### fastfetch: 
+```
+pacman -S fastfetch (install it from distro's repository)
+```
+#### Kitty: 
+```
+pacman -S kitty (install it from distro's repository)
+```
+#### Nvim: 
+```
+pacman -S neovim (install it from distro's repository)
+```
+#### Zsh: 
+```
+pacman -S zsh (install it from distro's repository)
+```
+#### Picom: 
+```
+pacman -S picom (install it from distro's repository)
+```
+#### I3WM: 
+```
+pacman -S i3 (install it from distro's repository)
+```
+#### Polybar: 
+```
+pacman -S polybar (install it from distro's repository)
+```
+#### Autotiling: 
+```
+pacman -S autotiling (install it from distro's repository)
+```
+#### nerd-fonts and awesome-fonts: 
+```
+pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
+```
+#### Oh-my-ZSH: 
 
-Kitty: pacman -S kitty (install it from distro's repository)
+<a>https://github.com/ohmyzsh/ohmyzsh</a>
 
-Nvim: pacman -S neovim (install it from distro's repository)
+#### PowerLevel10K: 
 
-NVChad: https://github.com/NvChad/NvChad
+<a>https://github.com/romkatv/powerlevel10k</a>
 
-Zsh: pacman -S zsh (install it from distro's repository)
+#### NVChad: 
 
-Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
+<a>https://github.com/NvChad/NvChad</a>
 
-PowerLevel10K: https://github.com/romkatv/powerlevel10k
+## Rofi (special case):
 
-Picom: pacman -S picom (install it from distro's repository)
+  You will need to install rofi from official git repository because it's fonts, then you can install it from pacman repository.
+  
+  ```
+  sudo pacman -S rofi (install it from distro's repository)
+  ```
+  <a>https://github.com/adi1090x/rofi</a>
+  
 
-I3WM: pacman -S i3 (install it from distro's repository)
+## Optional:
 
-Polybar: pacman -S polybar (install it from distro's repository)
+#### Nvim: 
+```
+pacman -S neovim (install it from distro's repository)
+```
+#### NVChad: 
 
-Autotiling: pacman -S autotiling (install it from distro's repository)
+<a>https://github.com/NvChad/NvChad</a>
 
-nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
+#### Catppuccin lavender cursor: 
 
+<a>https://www.gnome-look.org/p/2135236</a>
 
-# Rofi (special case)
+#### Catppuccin lavender GTK theme: 
 
-You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi from repository.
-
-1. https://github.com/adi1090x/rofi
-2. rofi: pacman -S rofi (install it from distro's repository)
-
-# Optional
-
-Nvim: pacman -S neovim (install it from distro's repository)
-
-NVChad: https://github.com/NvChad/NvChad
-
-Catppuccin mauve cursor: https://www.gnome-look.org/p/2135236
-
-Catppuccin Mauve GTK theme: https://www.gnome-look.org/p/1996672
+<a>https://www.gnome-look.org/p/1996672</a>
 
 
-# Just to help you
+## Just to help you:
 
-Nwg-look: pacman -S nwg-look (install it from distro's repository)
-
-Apple Magic Keyboard native path to configure key layout: /sys/bus/hid/drivers/apple/module/parameters
+#### Nwg-look: 
+```
+pacman -S nwg-look (install it from distro's repository)
+```
+#### Apple Magic Keyboard native path to configure key layout: 
+```
+/sys/bus/hid/drivers/apple/module/parameters
+```
 
 ![image](https://github.com/user-attachments/assets/a3d524ff-e496-4d00-aa1c-f2a0d9d71b32)
 ![image](https://github.com/user-attachments/assets/20a47044-ccf6-48ed-ba82-ae56fc8a36dd)
