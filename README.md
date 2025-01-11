@@ -50,7 +50,7 @@ sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetb
 
 ## Rofi (special case):
 
-  You will need to install rofi from official git repository because it's fonts, then you can install it from sudo pacman repository.
+  You will need to install rofi from official git repository because it's fonts, then you can install it from pacman repository.
   
   ```
   sudo sudo pacman -S rofi 
