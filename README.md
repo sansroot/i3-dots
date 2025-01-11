@@ -2,35 +2,35 @@
 
 #### Fastfetch: 
 ```
-sudo pacman -S fastfetch (install it from distro's repository)
+sudo pacman -S fastfetch 
 ```
 #### Kitty: 
 ```
-sudo pacman -S kitty (install it from distro's repository)
+sudo pacman -S kitty 
 ```
 #### Nvim: 
 ```
-sudo pacman -S neovim (install it from distro's repository)
+sudo pacman -S neovim 
 ```
 #### Zsh: 
 ```
-sudo pacman -S zsh (install it from distro's repository)
+sudo pacman -S zsh 
 ```
 #### Picom: 
 ```
-sudo pacman -S picom (install it from distro's repository)
+sudo pacman -S picom 
 ```
 #### I3WM: 
 ```
-sudo pacman -S i3 (install it from distro's repository)
+sudo pacman -S i3 
 ```
 #### Polybar: 
 ```
-sudo pacman -S polybar (install it from distro's repository)
+sudo pacman -S polybar 
 ```
 #### Autotiling: 
 ```
-sudo pacman -S autotiling (install it from distro's repository)
+sudo pacman -S autotiling 
 ```
 #### nerd-fonts and awesome-fonts: 
 ```
@@ -53,7 +53,7 @@ sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetb
   You will need to install rofi from official git repository because it's fonts, then you can install it from sudo pacman repository.
   
   ```
-  sudo sudo pacman -S rofi (install it from distro's repository)
+  sudo sudo pacman -S rofi 
   ```
   <a>https://github.com/adi1090x/rofi</a>
   
@@ -62,7 +62,7 @@ sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetb
 
 #### Nvim: 
 ```
-sudo pacman -S neovim (install it from distro's repository)
+sudo pacman -S neovim 
 ```
 #### NVChad: 
 
@@ -81,7 +81,7 @@ sudo pacman -S neovim (install it from distro's repository)
 
 #### Nwg-look: 
 ```
-sudo pacman -S nwg-look (install it from distro's repository)
+sudo pacman -S nwg-look 
 ```
 #### Apple Magic Keyboard native path to configure key layout: 
 ```
